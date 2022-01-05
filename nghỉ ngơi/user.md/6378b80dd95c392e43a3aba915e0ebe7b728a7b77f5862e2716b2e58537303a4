@@ -24,12 +24,12 @@ The HMAC signature is composed of all the URL-encoded parameters of your API cal
 Parameter | Description | Example
 ------------ | ------------- | -------------
 (required) nonce | the incremental integer | UNIX Timestamp
-(required) signature | the parameter's HMAC signature | HEX Format
+(bắt buộc) chữ ký | chữ ký HMAC của tham số | Định dạng HEX6378b80dd95c392e43a3aba915e0ebe7b728a7b77f5862e2716b2e58537303a4
 
-Example: `GET https://stakecube.io/api/v2/user/account?nonce=123&signature=xxx`
-
-### Withdraw
-> Creates a withdraw request.
+Ví dụ: `= 455fb14b491054ef71061c619b9e9301ea4e981c4e06f60a5cd3b618c86df890b22e5c224b2486bdbadccd60781cb0e8bfb33a71691b615af46471e5c89e1e115af46471e5c89e1 '
+Chào 
+### rút 
+> Tạo yêu cầu rút tiền.
 - Endpoint: `/user/withdraw`
 - Type: `POST`
 
@@ -48,6 +48,6 @@ Parameter | Description | Example
 
 
 
-Example: `POST https://stakecube.io/api/v2/user/withdraw`
+Example: `POST `455fb14b491054ef71061c619b9e9301ea4e981c4e06f60a5cd3b618c86df890b22e5c224b2486bdbadccd60781cb0e8bfb33a71691b615af46471e5c89e1ca46378b80dd95c392e43a3aba915e0ebe7b728a7b77f5862e2716b2e58537303a4
 
-POST Body: `ticker=SCC&address=sbtzyNMTbdT21krxrLYCwqX12rmPYtULGN&amount=10&nonce=123&signature=xxx`
+Nội dung bài đăng: `455fb14b491054ef71061c619b9e9301ea4e981c4e06f60a5cd3b618c86df890b22e5c224b2486bdbadccd60781cb0e8bfb33a71691b615af46471e5c89e115af46471e5c89e1'

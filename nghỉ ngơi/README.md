@@ -16,6 +16,6 @@ Endpoints are sorted by their API routes, you can find each route for relevent e
 
 [**MineCube APIs**](https://github.com/stakecube/DevCube/blob/master/rest-api/minecube.md) - Endpoints related to the MineCube service
 
-[**User/Account APIs**](https://github.com/stakecube/DevCube/blob/master/rest-api/user.md) - Endpoints related to the StakeCube User / Account
+[** user API / account **] ( https://github.com/stakecube/DevCube/blob/master/rest-api/user.md ) - 6d26ac84eab6f6a8c63c4c0c79a15dbe89c4e8aeb12ed0660acc34c985a9bc34c8
 
-[**System APIs**](https://github.com/stakecube/DevCube/blob/master/rest-api/system.md) - Endpoints related to the StakeCube System
+[ ** API hệ thống ** ] (https://github.com/stakecube/DevCube/blob/master/rest-api/system.md) - 6378b80dd95c392e43a3aba915e0ebe7b728a7b77f5862e2716b2e58537303a4
